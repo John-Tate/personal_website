@@ -5,8 +5,8 @@ from __future__ import unicode_literals
 THEME = './pelican-alchemy/alchemy'
 
 AUTHOR = 'John Tate'
-SITENAME = 'Hello'
-SITEURL = './'
+SITENAME = 'John Tate'
+SITEURL = '.'
 
 PATH = 'content'
 
@@ -14,10 +14,10 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'English'
 
-MARKUP = ('md','ipynb')
+MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.liquid']
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
 
 
 
@@ -29,10 +29,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (('Home', '/'),
+#          ('Writing', '/'),
+#          ('Contact', 'http://jinja.pocoo.org/'))
 
 # Social widget
 SOCIAL = (('Github', '#'),
