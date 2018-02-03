@@ -1,0 +1,78 @@
+unicode_literals	pelicanconf.py	/^from __future__ import unicode_literals$/;"	i
+AUTHOR	pelicanconf.py	/^AUTHOR = 'John Tate'$/;"	v
+SITENAME	pelicanconf.py	/^SITENAME = 'Hello.'$/;"	v
+SITEURL	pelicanconf.py	/^SITEURL = ''$/;"	v
+PATH	pelicanconf.py	/^PATH = 'content'$/;"	v
+TIMEZONE	pelicanconf.py	/^TIMEZONE = 'America\/New_York'$/;"	v
+DEFAULT_LANG	pelicanconf.py	/^DEFAULT_LANG = 'English'$/;"	v
+FEED_ALL_ATOM	pelicanconf.py	/^FEED_ALL_ATOM = None$/;"	v
+CATEGORY_FEED_ATOM	pelicanconf.py	/^CATEGORY_FEED_ATOM = None$/;"	v
+TRANSLATION_FEED_ATOM	pelicanconf.py	/^TRANSLATION_FEED_ATOM = None$/;"	v
+AUTHOR_FEED_ATOM	pelicanconf.py	/^AUTHOR_FEED_ATOM = None$/;"	v
+AUTHOR_FEED_RSS	pelicanconf.py	/^AUTHOR_FEED_RSS = None$/;"	v
+LINKS	pelicanconf.py	/^LINKS = (('Pelican', 'http:\/\/getpelican.com\/'),$/;"	v
+SOCIAL	pelicanconf.py	/^SOCIAL = (('You can add links in your config file', '#'),$/;"	v
+DEFAULT_PAGINATION	pelicanconf.py	/^DEFAULT_PAGINATION = False$/;"	v
+unicode_literals	publishconf.py	/^from __future__ import unicode_literals$/;"	i
+os	publishconf.py	/^import os$/;"	i
+sys	publishconf.py	/^import sys$/;"	i
+SITEURL	publishconf.py	/^SITEURL = ''$/;"	v
+RELATIVE_URLS	publishconf.py	/^RELATIVE_URLS = False$/;"	v
+FEED_ALL_ATOM	publishconf.py	/^FEED_ALL_ATOM = 'feeds\/all.atom.xml'$/;"	v
+CATEGORY_FEED_ATOM	publishconf.py	/^CATEGORY_FEED_ATOM = 'feeds\/%s.atom.xml'$/;"	v
+DELETE_OUTPUT_DIRECTORY	publishconf.py	/^DELETE_OUTPUT_DIRECTORY = True$/;"	v
+fabric	fabfile.py	/^import fabric.contrib.project as project$/;"	i
+contrib	fabfile.py	/^import fabric.contrib.project as project$/;"	i
+project	fabfile.py	/^import fabric.contrib.project as project$/;"	i
+os	fabfile.py	/^import os$/;"	i
+shutil	fabfile.py	/^import shutil$/;"	i
+sys	fabfile.py	/^import sys$/;"	i
+SocketServer	fabfile.py	/^import SocketServer$/;"	i
+ComplexHTTPRequestHandler	fabfile.py	/^from pelican.server import ComplexHTTPRequestHandler$/;"	i
+DEPLOY_PATH	fabfile.py	/^DEPLOY_PATH = env.deploy_path$/;"	v
+production	fabfile.py	/^production = 'root@localhost:22'$/;"	v
+dest_path	fabfile.py	/^dest_path = '\/var\/www'$/;"	v
+PORT	fabfile.py	/^PORT = 8000$/;"	v
+clean	fabfile.py	/^def clean():$/;"	f
+build	fabfile.py	/^def build():$/;"	f
+rebuild	fabfile.py	/^def rebuild():$/;"	f
+regenerate	fabfile.py	/^def regenerate():$/;"	f
+serve	fabfile.py	/^def serve():$/;"	f
+AddressReuseTCPServer	fabfile.py	/^    class AddressReuseTCPServer(SocketServer.TCPServer):$/;"	c	function:serve
+allow_reuse_address	fabfile.py	/^        allow_reuse_address = True$/;"	v	class:serve.AddressReuseTCPServer
+reserve	fabfile.py	/^def reserve():$/;"	f
+preview	fabfile.py	/^def preview():$/;"	f
+cf_upload	fabfile.py	/^def cf_upload():$/;"	f
+publish	fabfile.py	/^def publish():$/;"	f
+gh_pages	fabfile.py	/^def gh_pages():$/;"	f
+b	fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	i
+github_pages_branch	fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	i
+deploy_path	fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	i
+p	fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	i
+PY	Makefile	/^PY?=python3$/;"	m
+PELICAN	Makefile	/^PELICAN?=pelican$/;"	m
+PELICANOPTS	Makefile	/^PELICANOPTS=$/;"	m
+BASEDIR	Makefile	/^BASEDIR=$(CURDIR)$/;"	m
+INPUTDIR	Makefile	/^INPUTDIR=$(BASEDIR)\/content$/;"	m
+OUTPUTDIR	Makefile	/^OUTPUTDIR=$(BASEDIR)\/output$/;"	m
+CONFFILE	Makefile	/^CONFFILE=$(BASEDIR)\/pelicanconf.py$/;"	m
+PUBLISHCONF	Makefile	/^PUBLISHCONF=$(BASEDIR)\/publishconf.py$/;"	m
+FTP_HOST	Makefile	/^FTP_HOST=localhost$/;"	m
+FTP_USER	Makefile	/^FTP_USER=anonymous$/;"	m
+FTP_TARGET_DIR	Makefile	/^FTP_TARGET_DIR=\/$/;"	m
+SSH_HOST	Makefile	/^SSH_HOST=localhost$/;"	m
+SSH_PORT	Makefile	/^SSH_PORT=22$/;"	m
+SSH_USER	Makefile	/^SSH_USER=root$/;"	m
+SSH_TARGET_DIR	Makefile	/^SSH_TARGET_DIR=\/var\/www$/;"	m
+S3_BUCKET	Makefile	/^S3_BUCKET=my_s3_bucket$/;"	m
+CLOUDFILES_USERNAME	Makefile	/^CLOUDFILES_USERNAME=my_rackspace_username$/;"	m
+CLOUDFILES_API_KEY	Makefile	/^CLOUDFILES_API_KEY=my_rackspace_api_key$/;"	m
+CLOUDFILES_CONTAINER	Makefile	/^CLOUDFILES_CONTAINER=my_cloudfiles_container$/;"	m
+DROPBOX_DIR	Makefile	/^DROPBOX_DIR=~\/Dropbox\/Public\/$/;"	m
+GITHUB_PAGES_BRANCH	Makefile	/^GITHUB_PAGES_BRANCH=gh-pages$/;"	m
+DEBUG	Makefile	/^DEBUG ?= 0$/;"	m
+RELATIVE	Makefile	/^RELATIVE ?= 0$/;"	m
+usage	develop_server.sh	/^function usage(){$/;"	f
+alive	develop_server.sh	/^function alive() {$/;"	f
+shut_down	develop_server.sh	/^function shut_down(){$/;"	f
+start_up	develop_server.sh	/^function start_up(){$/;"	f
