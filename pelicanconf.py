@@ -1,16 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import date
+
 
 THEME = './pelican-alchemy/alchemy'
 
 AUTHOR = 'John Tate'
 SITENAME = 'John Tate'
-SITEURL = '.'
+SITEURL = 'http://johnatate.com'
 
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
+CURRENTYEAR = date.today().year
 
 DEFAULT_LANG = 'English'
 

@@ -1,3 +1,16 @@
-.placeholder {
-  max-width: 960px;
+
+.hero-icon {
+  text-align: right;
+  padding-right: 1px;
+  font-size: 1.2em;
+}
+
+.hero-area b{
+  font-weight: 700;
+  color: #0b2027;
+}
+
+.hero-area a{
+  color: #e54b4b;
+  font-style: underline;
 }

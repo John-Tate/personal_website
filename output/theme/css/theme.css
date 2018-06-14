@@ -29,7 +29,8 @@ hr {
 /* ------------------------------------------------------------------------- */
 
 .container {
-  max-width: 960px;
+  width: 80%;
+  max-width: 1200px;
 }
 
 .header,
@@ -123,5 +124,9 @@ hr {
 
   .teaser header li:not(:last-child) {
     margin-right: 10px;
+  }
+
+  .container {
+    width: 100%;
   }
 }
